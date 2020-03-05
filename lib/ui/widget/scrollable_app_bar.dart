@@ -6,6 +6,7 @@ class ScrollableAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverAppBar(
       expandedHeight: 250.0,
+      elevation: 0.0,
       pinned: true,
       leading: SliverAppBarComponent(
         hiddenChild: IconButton(
