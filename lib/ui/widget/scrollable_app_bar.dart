@@ -53,7 +53,6 @@ class ScrollableAppBar extends StatelessWidget {
       ),
       flexibleSpace: FlexibleSpaceBar(
           collapseMode: CollapseMode.parallax,
-          centerTitle: true,
           background: Image.asset(
             'assets/images/station.png',
             fit: BoxFit.cover,
@@ -62,7 +61,7 @@ class ScrollableAppBar extends StatelessWidget {
         preferredSize: Size.fromHeight(0.0),
         child: SliverAppBarComponent(
           expandedChild: Container(
-            height: 10,
+            height: 10.0,
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.vertical(top: Radius.circular(10.0)),

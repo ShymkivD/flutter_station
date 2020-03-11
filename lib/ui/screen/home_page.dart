@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
                     CustomListTile(Icons.phone, '1 (800) 636-0986, ',
                         secondStr: 'hello@chargelab.co',
                         clickable: () => (_colorChanged = !_colorChanged)
-                            ? Colors.blue
+                            ? Theme.of(context).primaryColor
                             : Colors.green),
                     CustomListTile(Icons.edit, 'Suggest an edit')
                   ],
